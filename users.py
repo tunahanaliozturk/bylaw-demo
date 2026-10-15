@@ -4,5 +4,5 @@ def find_user(cur, name):
 
 
 def find_by_email(cur, email):
-	cur.execute("SELECT * FROM users WHERE email = '" + email + "'")
-	return cur.fetchone()
+    cur.execute("SELECT * FROM users WHERE email = %s", (email,))
+    return cur.fetchone()
