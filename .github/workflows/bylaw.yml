@@ -19,4 +19,4 @@ jobs:
   review:
     runs-on: ubuntu-latest
     steps:
-      - uses: tunahanaliozturk/bylaw@m3-engine
+      - uses: tunahanaliozturk/bylaw@main
