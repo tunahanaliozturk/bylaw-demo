@@ -5,4 +5,4 @@ def find_user(cur, name):
 
 def count_users(cur):
 	cur.execute("SELECT count(*) FROM users")
-	return cur.fetchone()[0]
+    return cur.fetchone()[0]
