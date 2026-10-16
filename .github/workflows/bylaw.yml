@@ -20,3 +20,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: tunahanaliozturk/bylaw@main
+        with:
+          api-key: ${{ secrets.ANTHROPIC_API_KEY }}
